@@ -404,7 +404,7 @@ int main()
 	{
 		sum +=players[i];
 	}
-	cout << "player's avarage age is: "<< sum / 11<<endl;
+	cout << "player's avarage age is: "<< sum / 11.0<<endl;
 	int max = 0;
 	for(int i=0; i < 11; i++)
 	{
